@@ -3,8 +3,11 @@
 
 ##맥환경설정 유틸
 shift it : 작업창 자동 화면분할 | http://shift-it.en.softonic.com/mac
+
 Parallels Desktop : 멀티 운영체제 사용 프로그램 | http://www.parallels.com/kr/
+
 Microsoft Remote Desktop : 윈도우 원격 접속 | 앱스토어
+
 karabiner : 키보드 리매퍼(키보드 세팅) | https://pqrs.org/osx/karabiner/
 > OS X 10.11 엘 캐피탄부터 입력 소스 단축키가 바뀌었다..( `command`+`space` -> `control`+`space` )
 따라서 karabiner 사용자는 다음 소스를 아래 경로에 설정해줘야 쉽게 사용할 수 있음..
