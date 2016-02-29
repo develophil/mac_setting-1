@@ -46,7 +46,11 @@ Filezilla : 무료 FTP 프로그램 | https://filezilla-project.org/
 Gas mask : 호스트파일매니저. 여러 호스트 파일 전환 | http://clockwise.ee/
 
 Atom : github가 만든 에디터. | https://atom.io/
-> Preferences > Install > git-control 검색 > install
+> 패키지 설치 : Preferences > Install > 패키지 검색
+> - git-control
+> - convert-to-utf8
+> - Remote-FTP
+> - language-asp
 
 
 Sublime Text 3	https://www.sublimetext.com/3
@@ -67,6 +71,10 @@ HomeBrew 설치후 아래의 명령어를 입력한다.
 # brew install curl --with-ssl --with-libssh2
 # brew install git-ftp
 ```
+
+sourcetree : GUI 환경의 git 컨트롤러 | https://www.sourcetreeapp.com/
+> github와 연동 : LeoDevPhil
+
 
 
 ##협업/ 메신저
@@ -122,3 +130,5 @@ cheatsheet : 활성화면 단축키 보기 | https://www.mediaatelier.com/CheatS
 hotkey-eve : 단축키가 등록된 액션을 수행하면 알림으로 단축키 알려줌 | http://www.hotkey-eve.com/
 
 clipmenu : 클립보드/스니펫 매니저 | http://www.clipmenu.com/
+
+betterTouchTool : 멀티 제스쳐 확장 프로그램 | https://www.boastr.net/
