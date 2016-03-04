@@ -4,6 +4,8 @@
 shift it : 작업창 자동 화면분할 | http://shift-it.en.softonic.com/mac
 
 Parallels Desktop : 멀티 운영체제 사용 프로그램 | http://www.parallels.com/kr/
+> parallels tools 설치 - mac과 파일 공유 위해
+
 
 Microsoft Remote Desktop : 윈도우 원격 접속 | 앱스토어
 
@@ -60,17 +62,30 @@ macdown : 맥용 마크다운 에디터 | http://macdown.uranusjr.com/
 Chrome : 크롬브라우저 | https://www.google.co.kr/chrome/browser/desktop/
 
 homebrew : package manager	| http://brew.sh
+> HomeBrew 설치 - 터미널에서 아래의 명령어를 입력.
+>
+	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-HomeBrew를 이용한 git 설치 - 터미널에서 아래의 명령어를 입력.
-```
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-HomeBrew 설치후 아래의 명령어를 입력한다.
-```
-# brew install git
-# brew install curl --with-ssl --with-libssh2
-# brew install git-ftp
-```
+> HomeBrew를 이용한 git, git-ftp 설치
+> 
+	# brew install git
+	# brew install curl --with-ssl --with-libssh2
+	# brew install git-ftp
+
+> git-ftp 설치 후 세팅
+>
+	git config git-ftp.user wooripension
+    git config git-ftp.password dnfl\!\$%vpstus
+     : 비번에 `!$`가 포험되어 `\!\$`로 대체함
+    git config git-ftp.syncroot /Users/Leo/Work/wooripension_asp_source/www
+    git config git-ftp.deployedsha1file leosha1.log
+    git config git-ftp.url ftp://14.0.89.145
+
+> HomeBrew를 이용한 java 설치
+>
+	$ brew update
+	$ brew tap caskroom/cask
+    $ brew install Caskroom/cask/java
 
 sourcetree : GUI 환경의 git 컨트롤러 | https://www.sourcetreeapp.com/
 > github와 연동 : LeoDevPhil
@@ -100,7 +115,8 @@ CandyBar : 쉬운 아이콘 관리 |
 Icons8 Lite : 간단한 클립아트 검색 | https://icons8.com/app/#/ios
 
 Automator 세팅
-> - finder 실행 액션 추가
+> - finder 실행 액션 추가 : `control` + `shift` + `command` + E
+> - 화면보호기 실행 액션 추가 : `control` + `alt` + `command` + L
 
 
 PhotoScape X : 쉬운 사진 편집기 | http://x.photoscape.org/mac/
@@ -117,7 +133,7 @@ VLC : 동영상 플레이어 | http://www.videolan.org/vlc/
 
 pocket : 콘텐츠 즐겨찾기 서비스 | https://getpocket.com/mac/?a=mac
 
-evernote : 메모, 콘텐츠 저장/ 공유 | 앱스토어.
+evernote : 메모, 콘텐츠 저장/ 공유 | 앱스토어. | https://evernote.com
 
 skitch : 간단한 화면캡쳐 및 이미지 편집툴 | 앱스토어. http://macworld.hjsong.net/44
 
