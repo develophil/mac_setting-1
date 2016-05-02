@@ -1,5 +1,11 @@
 #업무준비
 
+## 세팅과정
+> 1. portal.office365.com 메일 계정 확인
+> 1. jandi 메신저 계정 생성 및 초대
+> 1. github 초대/ sourceTree 연동/ 우리펜션 source
+> 1. 구글드라이브 
+
 ##맥환경설정 유틸
 shift it : 작업창 자동 화면분할 | http://shift-it.en.softonic.com/mac
 
@@ -87,7 +93,7 @@ Chrome : 크롬브라우저 | https://www.google.co.kr/chrome/browser/desktop/
 	$ brew tap caskroom/cask
     $ brew install Caskroom/cask/java
 
-* sourcetree : GUI 환경의 git 컨트롤러 | https://www.sourcetreeapp.com/
+(*) sourcetree : GUI 환경의 git 컨트롤러 | https://www.sourcetreeapp.com/
 > github와 연동 : LeoDevPhil
 
 
