@@ -87,6 +87,22 @@ Chrome : 크롬브라우저 | https://www.google.co.kr/chrome/browser/desktop/
     git config git-ftp.deployedsha1file leosha1.log
     git config git-ftp.url ftp://14.0.89.145
 
+    1)로컬에만 파일이있고 아직 FTP에 아무 파일도 업로드 되지 않은 상태라면 다음 명령어를 사용하여 초기화 한다.
+        git ftp init --user [ftp사용자] --passwd [ftp비번] - ftp://www.example.com
+    2)로컬에 파일이 있으며 이미 동일한 모든 파일이 수동으로 FTP에도 업로드가 되어있는 경우 다음명령어를 통해 초기화 한다.
+        git ftp catchup -u [ftp사용자] -p [ftp비번] - ftp://www.example.com
+    3)이미 위의 명령어들을 통해 초기화 되어있는 상황에서, 로컬에 수정사항을 서버로 업로드하고싶을경우 다음 명령어를 사용한다.
+        git ftp push -u [ftp사용자] -p [ftp비번] - ftp://www.example.com
+
+    깃 설정을 통해 미리 아이디, 패스워드, 소스경로, FTP경로를 설정할 수 있다.
+    $ git config git-ftp.user john
+    $ git config git-ftp.url ftp.example.com
+    $ git config git-ftp.password secr3t
+    $ git config git-ftp.syncroot path/dir
+    미리 설정한 경우
+    git ftp push -A
+    git ftp catchup -A 명령어만 입력하면 된다. 
+
 > HomeBrew를 이용한 java 설치
 >
 	$ brew update
@@ -95,7 +111,7 @@ Chrome : 크롬브라우저 | https://www.google.co.kr/chrome/browser/desktop/
 
 (*) sourcetree : GUI 환경의 git 컨트롤러 | https://www.sourcetreeapp.com/
 > github와 연동 : LeoDevPhil
-
+> remote github : wooripension_asp_source clone 받을것
 
 
 ##협업/ 메신저
