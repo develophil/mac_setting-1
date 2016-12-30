@@ -41,6 +41,10 @@ karabiner : 키보드 리매퍼(키보드 세팅) | https://pqrs.org/osx/karabin
 ```
 `Reroad XML` 눌러서 등록된 설정 체크 하면 오른쪽 `command`키는 한/영키로, 오른쪽 `option`키는 한자키로 매핑된다.
 
+karabiner-elements : 키보드 리매퍼(키보드 세팅) | https://github.com/tekezo/Karabiner-Elements
+> OS X 10.12 씨에라부터는 기존 karabiner가 사용이 안된다.... 이게 웬... 그 대안으로 이걸 사용해야지.. 
+근데 이건 1 : 1 매핑밖에 되지 않는다....ㅠㅠ
+
 iterm2 : 좀 더 쉽고 기능 많은 터미널 - 창분할, 자동완성, 텍스트선택/복사, 단축키설정, 검색 등 | http://www.iterm2.com/#/section/home
 
 Caffeine : 잠자기모드 방지 | https://itunes.apple.com/kr/app/caffeine/id411246225?mt=12
