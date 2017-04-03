@@ -48,7 +48,7 @@ karabiner-elements : 키보드 리매퍼(키보드 세팅) | https://github.com/
 iterm2 : 좀 더 쉽고 기능 많은 터미널 - 창분할, 자동완성, 텍스트선택/복사, 단축키설정, 검색 등 | http://www.iterm2.com/#/section/home
 
 Caffeine : 잠자기모드 방지 | https://itunes.apple.com/kr/app/caffeine/id411246225?mt=12
-
+amphetamine : 커스터마이징이 훌륭한 잠자기모드 방지. 씨에라부터 카페인이 작동을 안해서 이걸로 갈아탐.
 
 ##개발관련 유틸
 postman : web api test HTTP 클라이언트 request 생성기 | chrome 확장 프로그램
