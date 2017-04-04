@@ -48,7 +48,7 @@ karabiner-elements : 키보드 리매퍼(키보드 세팅) | https://github.com/
 iterm2 : 좀 더 쉽고 기능 많은 터미널 - 창분할, 자동완성, 텍스트선택/복사, 단축키설정, 검색 등 | http://www.iterm2.com/#/section/home
 
 Caffeine : 잠자기모드 방지 | https://itunes.apple.com/kr/app/caffeine/id411246225?mt=12
-
+amphetamine : sierra 버전에선 Caffeine이 안되서 이걸로 사용 : https://itunes.apple.com/kr/app/amphetamine/id937984704?mt=12
 
 ##개발관련 유틸
 postman : web api test HTTP 클라이언트 request 생성기 | chrome 확장 프로그램
@@ -171,6 +171,7 @@ cheatsheet : 활성화면 단축키 보기 | https://www.mediaatelier.com/CheatS
 
 hotkey-eve : 단축키가 등록된 액션을 수행하면 알림으로 단축키 알려줌 | http://www.hotkey-eve.com/
 
-clipmenu : 클립보드/스니펫 매니저 | http://www.clipmenu.com/
+clipmenu : 클립보드/스니펫 매니저 | http://www.clipmenu.com
+clipy : clipmenu를 계승 발전시킨 앱. 클립메뉴는 더이상 업데이트가 안된다나... : https://clipy-app.com/
 
 betterTouchTool : 멀티 제스쳐 확장 프로그램 | https://www.boastr.net/
