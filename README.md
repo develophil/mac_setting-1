@@ -146,7 +146,9 @@ Numi : 서술형 계산기 | http://macnews.tistory.com/4181
 
 checkor : 한글 맞춤법/ 문법 체크 | http://blog.mywizz.io/checkor-for-mac
 
-alfred2 : 검색/ 수행기 | https://www.alfredapp.com/
+alfred : spotlight 보다 향상된 검색/ 수행기 | https://www.alfredapp.com/
+> keyword를 등록하여 이동 액션 커스터마이징하여 사용하기 좋음
+> Features - Web Search - Add Custom Search
 
 VLC : 동영상 플레이어 | http://www.videolan.org/vlc/
 
