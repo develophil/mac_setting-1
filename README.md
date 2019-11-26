@@ -76,6 +76,9 @@ Chrome : 크롬브라우저 | https://www.google.co.kr/chrome/browser/desktop/
 >
 	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+> HomeBrew Troubleshooting - 커맨드라인 설치 시 네트워크 오류 문제 해결
+> 사내망에서 막혀있었음. 테더링으로 연결하여 해결. 삽질하지 말 것.
+
 > HomeBrew를 이용한 git, git-ftp 설치
 > 
 	# brew install git
