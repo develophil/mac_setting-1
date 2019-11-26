@@ -115,6 +115,11 @@ Chrome : 크롬브라우저 | https://www.google.co.kr/chrome/browser/desktop/
 	$ brew update
 	$ brew tap caskroom/cask
     $ brew install Caskroom/cask/java
+    
+    
+> 여러 버전 java 설치
+> $ brew tap homebrew/cask-versions
+> $ brew cask install java8
 
 (*) sourcetree : GUI 환경의 git 컨트롤러 | https://www.sourcetreeapp.com/
 > github와 연동 : LeoDevPhil
@@ -137,6 +142,26 @@ Line : 무료 통화/메시지 앱 | http://line.me/ko/
 
 
 ##개인환경세팅
+Oh My ZSH 설치 (참고 : !(https://medium.com/harrythegreat/oh-my-zsh-iterm2%EB%A1%9C-%ED%84%B0%EB%AF%B8%EB%84%90%EC%9D%84-%EB%8D%94-%EA%B0%95%EB%A0%A5%ED%95%98%EA%B2%8C-a105f2c01bec))
+> brew install zsh
+> sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+테마/폰트 변경
+> vi ~/.zshrc
+> ZSH_THEME=”agnoster”
+> source ~/.zshrc
+> 폰트설치 : https://github.com/naver/d2codingfont
+> iterm2 preference > Profile > Text > 폰트변경
+
+계정명만표시
+> 
+
+Syntax Hightlight 적용
+> brew install zsh-syntax-highlighting
+> source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+
+
 LiteIcon : 아이콘 쉬운 교체 |
 
 CandyBar : 쉬운 아이콘 관리 |
